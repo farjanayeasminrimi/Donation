@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Freckle+Face&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Splash&display=swap');
+/*
+  intro-h1 => font-family: 'Roboto', sans-serif;
+  p => font-family: 'Mukta', sans-serif;
+  btn => font-family: 'Arimo', sans-serif;
+  other's-h1 => font-family: 'Poppins', sans-serif;
+*/
+
+/* general code started */
+ body{
+  margin: 0;
+  padding: 0;
+ }
+ .container{
+  width: 75rem;
+  margin: 0 auto;
+ }
+/* general code ended */
+
+/* introduction code started  */
+.intro_sec{
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient(to bottom, rgb(4 18 18 / 48%) 81%, rgb(10 10 10 / 85%) 100%),url(../images/crowded.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px 102px 0px;
+}
+.intro_details_wrapper {
+  width: 39rem;
+  text-align: center;
+  padding: 2.1rem 2rem 0rem 2rem;
+  margin: 0 auto;
+}
+
+.intro_title {
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 55px;
+  word-spacing: 3px;
+}
+
+.intro_details_wrapper p {
+  font-family: 'Mukta', sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  margin: 2px 0px 35px 0px;
+}
+
+.btn {
+ width: 120px;
+ height: 45px;
+ font-family: 'Arimo', sans-serif;
+ text-transform: capitalize;
+ font-weight: 500;
+ font-size: 14px;
+ color: #ffffff;
+ outline: none;
+ border: 1px solid #f34646;
+ border-radius: 5px;
+ background: linear-gradient(to right, #f34646 0%, #f34646 51%, #f34646 100%);
+}
+/* introduction code ended  */
+
+/* amount_sec code started */
+.amount_details_wrapper {
+  text-align: center;
+  width: 38rem;
+  margin: 0 auto;
+}
+
+.amount_sec {
+  width: 100%;
+  padding: 65px 0px;
+}
+
+.primary_title {
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+}
+
+.paragraph {
+  font-family: 'Mukta', sans-serif;
+  color: #686868;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.BD_amount {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.BD_amount h2 {
+  width: 100px;
+  font-family: 'Mukta', sans-serif;
+  color: #5c5555;
+  padding: 24px 4px;
+  font-size: 26px;
+}
+
+.active {
+  border: 1px solid #f34646;
+  border-radius: 5px;
+  background-color: #c70d0d0f;
+}
+
+.amount_details_wrapper input {
+  display: block;
+  width: 493px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 12px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid tomato;
+  padding: 13px 0px;
+  font-size: 15px;
+}
+
+.amount_details_wrapper .btn {
+  margin-top: 30px;
+}
+/* amount_sec code ended */
+
+/*  donate_plan code started  */
+.donate_plan_wrapper{
+  background-color: #c70d0d26;
+  border-radius: 30px;
+  padding: 50px 33px 85px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.donate_plan_details {
+  width: 435px;
+  text-align: center;
+}
+
+.donate_plan_details_box {
+  width: 585px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-75px, -112px);
+  align-items: center;
+  -moz-transform: translate(-75px, -98px);
+  -ms-transform: translate(-75px, -98px);
+  -o-transform: translate(-75px, -98px);
+}
+
+.box-one {
+  width: 173px;
+  border: 1px solid #f34646;
+  border-color: #FF8B8B;
+  padding: 17px 2px 27px 10px;
+  height: 130px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  background-color: #FF8B8B;
+}
+.box-one img {
+  width: 40px;
+}
+
+.box-one h3 {
+  font-family: 'Arimo', sans-serif;
+  font-size: 15px;
+  color: #141111c7;
+  line-height: 5px;
+}
+
+.box-one p {
+  font-family: 'Mukta', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #141111ba;
+}
+/*  donate_plan code ended  */
+
+/* importance of donation code started */
+.importance_donation_sec {
+  padding: 170px 0px 85px 0px;
+}
+
+.lives_details_wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.lives_details {
+  width: 552px;
+  text-align: center;
+}
+
+.lives_details .btn {
+  width: 160px;
+  height: 48px;
+}
+.lives_details_img img {
+  width: 540px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.lives_details h1 {
+  font-family: 'Arimo', sans-serif;
+  font-size: 35px;
+  color: #000000;
+}
+
+.lives_details_img {
+  width: 550px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.lives_details p {
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  color: #666060;
+  margin-bottom: 38px;
+}
+.sec_one .lives_details_img img {
+  width: 565px;
+}
+
+.sec_one_details {
+  width: 540px;
+}
+
+.sec_one {
+  margin-top: 93px;
+}
+
+.sec_one .lives_details_img {
+  width: 574px;
+}
+/* importance of donation code ended */
+
+/* impact code started  */
+.impact_sec{
+  background-image: linear-gradient(to bottom, rgb(4 18 18 / 58%) 81%, rgb(10 10 10 / 94%) 100%),url(../images/save_person.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 61px 0px 135px 0px;
+}
+
+.impact_btn {
+  width: 205px;
+  height: 50px;
+  font-size: 18.2px;
+  margin-top: 90px;
+}
+
+.count_box_wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.impact_details_wrapper {
+  text-align: center;
+}
+
+.count_box h1 {
+  font-family: 'Freckle Face', cursive;
+  color: #fbb040;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-style: italic;
+  line-height: 5px;
+}
+
+.count_box h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.count_box {
+  width: 278px;
+}
+/* impact code ended  */
+
+/* updates code started */
+
+.get_updates_sec {
+  padding: 50px 0px 60px;
+}
+
+.get_updates_details_wrapper {
+  text-align: center;
+  width: 730px;
+  margin: 0 auto;
+}
+
+.get_updates_input_wrapper input {
+  position: relative;
+  width: 400px;
+  height: 43px;
+  padding-left: 30px;
+  border: 1px solid #f34646;
+  border-radius: 5px;
+  outline: none;
+  background: #8312120d;
+}
+
+.get_updates_input_wrapper {
+  position: relative;
+  margin-top: 42px;
+  background: #f7dbdb;
+  padding: 78px 0px;
+  border-radius: 10px;
+}
+
+.get_updates_btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(461px, 78px);
+  height: 47px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.get_updates_details h1 {
+  font-size: 40px;
+}
+/* updates code ended */
+
+/* footer area started */
+.footer_area{
+  background-color:#000000;
+}
+.footer_area_wrapper {
+  width: 100%;
+  padding: 25px 0px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.4px solid #f6f6f69e;
+}
+
+.donate_card img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.information a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  line-height: 26px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 17px;
+}
+
+.footer_title {
+  color: #f34646;
+  font-family: 'Splash', cursive;
+}
+.policy_info a {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  line-height: 30px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 17px;
+}
+
+.policy_info {
+  padding-top: 50px;
+}
+
+.social_medias {
+  width: 85px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.social_medias a {
+  color: #6ba5bf;
+}
+
+.donate_card {
+  margin-top: 36px;
+}
+.information {
+  width: 315px;
+}
+
+.information span {
+  color: #ffffff;
+  line-height: 26px;
+  font-family: 'Mukta', sans-serif;
+  font-size: 17px;
+}
+
+.copyright span {
+  color: #ffffff;
+  font-family: 'Mukta', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+}
+.copyright {
+  padding: 13px 0px;
+  text-align: center;
+}
+/* footer area ended */
